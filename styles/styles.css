@@ -54,6 +54,10 @@ nav h1 {
     text-decoration: none;
 }
 
+.contact-me-button {
+    margin: auto;
+}
+
 .button-background-blue {
     background-color: rgb(0, 183, 255);   
     box-shadow: 5px 7px rgb(115, 215, 255);
