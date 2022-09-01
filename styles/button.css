@@ -1,0 +1,44 @@
+.button {
+    width: 120px;
+    height: 25px;
+    margin: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 5px 7px black;
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translate(5px, 7px);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.contact-me-button {
+    margin: auto;
+}
+
+.button-background-blue {
+    background-color: rgb(0, 183, 255);   
+    box-shadow: 5px 7px rgb(115, 215, 255);
+}
+
+.button-background-insta {
+    background-color: rgb(255, 81, 174);
+    box-shadow: 5px 7px rgb(255, 160, 211);
+}
+
+.button-background-blue:active {
+    background-color: rgb(145, 224, 255);   
+}
+
+.button-background-insta:active {
+    background-color: rgb(248, 174, 213);   
+}

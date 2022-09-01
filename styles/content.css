@@ -1,0 +1,91 @@
+.biodata {
+    margin: 50px;
+    border: 3px solid pink;
+    box-shadow: 5px 7px pink;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+}
+
+.biodata h1 {
+    color: rgb(0, 183, 255);
+    text-align: center;
+}
+
+hr {
+    margin: 5px;
+}
+
+.biodata img {
+    display: block;
+    margin: auto;
+}
+
+.green {
+    color: greenyellow;
+}
+
+.desktop-nav {
+    background-color: rgb(252, 221, 227);
+    height: 30px;
+}
+
+.desktop-nav img {
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    float: right;
+    cursor: pointer;
+}
+
+.information {
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    flex-direction: column;
+}
+
+.aboutme {
+    border: 3px solid pink;
+    box-shadow: 5px 7px pink;
+}
+
+.portofolio {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience {
+    border: 3px solid pink;
+    box-shadow: 5px 7px pink;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.education {
+    border: 3px solid pink;
+    box-shadow: 5px 7px pink;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.information h1 {
+    margin: 10px;
+}
+
+.information p {
+    text-align: justify;
+}
+
+#content {
+    display: flex;
+}
+
+#content p {
+    margin: 10px;
+}
+
+#github {
+    text-decoration: none;
+}
