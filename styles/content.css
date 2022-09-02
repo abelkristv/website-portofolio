@@ -78,6 +78,10 @@ hr {
     text-align: justify;
 }
 
+#main-content {
+    margin-top: 0px;
+}
+
 #content {
     display: flex;
 }

@@ -1,9 +1,24 @@
-header = document.querySelector("header")
-content = document.getElementById("content")
-form = document.getElementById('form')
-project = document.getElementById("projects")
+let header = document.querySelector("header")
+let content = document.getElementById("content")
+let form = document.getElementById('form')
+let project = document.getElementById("projects")
+let main = document.querySelector("main")
+console.log(main.innerHTML)
+
+let navbar = document.querySelector("nav")
+
+function sticky() {
+    if (window.scrollY > navbar.offsetTop) {
+        navbar.style.position = "fixed"
+    } else {
+        navbar.style.position = "static"        
+    }
+}
+
 function display_form() {
-    header.style.filter = "blur(8px)"
+    // header.style.filter = "blur(8px)"
+    navbar.style.filter = "blur(8px)"
+    navbar.style.zIndex = 10
     content.style.filter = "blur(8px)"
     project.style.filter = "blur(8px)"
     form.style.display = "block"
@@ -16,7 +31,9 @@ function remove_form() {
     content.style.filter = "none"
     project.style.filter = "none" 
     form.style.display = "none"   
+    navbar.style.filter = "none"
 }
 
 document.getElementById("contact").addEventListener("click", display_form)
 document.getElementById("form-close").addEventListener("click", remove_form)
+// window.onscroll = sticky

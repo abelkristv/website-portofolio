@@ -8,140 +8,145 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="images/avatar.png" alt="">
-            <h1>Abel Kristanto</h1>
-            <ul>
-                <li><a href="https://www.instagram.com/abel_kristanto/"><div class="button button-background-insta">
-                    <img src="images/instagram.png" alt="" class="logo">
-                    <span id="instagram">Instagram</span>
-                </div></a></li>
-                <li><a href="https://github.com/abelkristv"><div class="button button-background-blue">
-                    <img src="images/github.png" alt="" class="logo">
-                    <span id="github">Github</span>
-                </div></a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="content">
-        <div class="biodata">
+    <main>
+        <header style="height: 71px;">
+            <nav>
+                <img src="images/avatar.png" alt="">
+                <h1>Abel Kristanto</h1>
+                <ul>
+                    <li><a href="https://www.instagram.com/abel_kristanto/"><div class="button button-background-insta">
+                        <img src="images/instagram.png" alt="" class="logo">
+                        <span id="instagram">Instagram</span>
+                    </div></a></li>
+                    <li><a href="https://github.com/abelkristv"><div class="button button-background-blue">
+                        <img src="images/github.png" alt="" class="logo">
+                        <span id="github">Github</span>
+                    </div></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main-content">
+            <section id="content">
+                <div class="biodata">
+                    <div class="desktop-nav">
+                        <img src="images/icons/x.png" alt="">
+                    </div>
+                    <img src="images/avatar.png" alt="">
+                    <h1>Abel Kristanto</h1>
+                    <hr>
+                    <p>A software engineer, linux enthusiast, and free software advocate</p>
+                    <p>[🏠] -> Malang, Indonesia</p>
+                    <p>[🏫] -> Binus University</p>
+                    <p>[💼] -> Software Engineer</p>
+                </div>
+                <div class="information">
+                    <div class="aboutme">
+                        <div class="desktop-nav">
+                            <img src="images/icons/x.png" alt="">
+                        </div>
+                        <h1>👱About Me</h1>  
+                        <hr>
+                        <p>Hi everyone, I'm Abel Kristanto, a student from <span style="color: rgb(0, 183, 255);">Binus University @Malang</span>. I am passionate about computer, that's why i take a computer science degree in Binus University. I'm also a linux enthusiast, i daily drive <span style="color: purple;">gentoo</span> linux in my main machine. I am also an active student in my university, i am an activist of <span style="color: blue;">Himpunan Mahasiswa Teknik Informatika</span> and <span style="color: rgb(0, 119, 255);">Bina Nusantara Computer Club</span>.</p>       
+                        <p>I have many hobbies, i like to do many things, i like reading, listening to music, and playing games. I also have a hobbies of learning history, history is one of the subject that mesmerize me, there is so much great tale and story with many good moral examples we can learn in history.</p>
+                        <p>Allright, i guess that's enough, this is all for the about me section, thank you for reading...</p>   
+                    </div>
+                    <div class="portofolio">
+                        <div class="experience">
+                            <div class="desktop-nav">
+                                <img src="images/icons/x.png" alt="">
+                            </div>
+                            <h1>💭 Experience</h1>
+                            <hr>
+                            <ul>
+                                <li>
+                                    <h1>HIMTI Resource Development Division</h1>
+                                    <p>2022 - now</p>
+                                </li>
+                                <li>
+                                    <h1>BNCC @Malang LnT Division</h1>
+                                    <p>2022 - now</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="education">
+                            <div class="desktop-nav">
+                                <img src="images/icons/x.png" alt="">
+                            </div>
+                            <h1>📚 Education</h1>        
+                            <hr>
+                            <h1>Binus University (Computer Science)</h1>            
+                            <p>2021 - now</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div class="contact-me-button button button-background-blue" id="contact">
+            Contact Me
+        </div>
+    
+        <section id="projects">
+            <br>
+            <br>
+            <hr>
+            <h1 style="text-align: center; font-size: 50px;">Favourite Dotfiles</h1>
+            <p style="text-align: center;">I dont know what tu put here, so i just gonna put my favourties linux desktop in here</p>
+            <div class="carousel-container">
+                <div class="carousel-content" id="slide1">
+                    <a href="#slide3" id="left-arrow">
+                        <img src="images/icons/arrow.png" alt="">
+                    </a>
+                    <img src="images/dot1.png" alt="">
+                    <a href="#slide2">
+                        <img src="images/icons/arrow.png" alt="">
+                    </a>
+                </div>
+                <div class="carousel-content" id="slide2">
+                    <a href="#slide1" id="left-arrow">
+                        <img src="images/icons/arrow.png" alt="">
+                    </a>
+                    <img src="images/dot2.png" alt="">
+                    <a href="#slide3">
+                        <img src="images/icons/arrow.png" alt="">
+                    </a>
+                </div>
+                <div class="carousel-content" id="slide3">
+                    <a href="#slide2" id="left-arrow">
+                        <img src="images/icons/arrow.png" alt="">
+                    </a>
+                    <img src="images/dot3.png" alt="">
+                    <a href="#slide1">
+                        <img src="images/icons/arrow.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <br>
+            <h1 style="text-align: center;">💮Owl4ce Dotfiles</h1>
+            <a href="https://github.com/owl4ce/dotfiles" style="text-decoration: none; color: purple; display: block; text-align: center;">https://github.com/owl4ce/dotfiles</a>
+            <br>
+            <br>
+            <br>
+        </section>
+        <section id="form">
             <div class="desktop-nav">
-                <img src="images/icons/x.png" alt="">
+                <img src="images/icons/x.png" alt="" id="form-close">
             </div>
-            <img src="images/avatar.png" alt="">
-            <h1>Abel Kristanto</h1>
-            <hr>
-            <p>A software engineer, linux enthusiast, and free software advocate</p>
-            <p>[🏠] -> Malang, Indonesia</p>
-            <p>[🏫] -> Binus University</p>
-            <p>[💼] -> Software Engineer</p>
-        </div>
-        <div class="information">
-            <div class="aboutme">
-                <div class="desktop-nav">
-                    <img src="images/icons/x.png" alt="">
-                </div>
-                <h1>👱About Me</h1>  
+            <form action="">
+                <h1 style="text-align: center; font-size: 50px;">📬 Contact me form 📬</h1>
                 <hr>
-                <p>Hi everyone, I'm Abel Kristanto, a student from <span style="color: rgb(0, 183, 255);">Binus University @Malang</span>. I am passionate about computer, that's why i take a computer science degree in Binus University. I'm also a linux enthusiast, i daily drive <span style="color: purple;">gentoo</span> linux in my main machine. I am also an active student in my university, i am an activist of <span style="color: blue;">Himpunan Mahasiswa Teknik Informatika</span> and <span style="color: rgb(0, 119, 255);">Bina Nusantara Computer Club</span>.</p>       
-                <p>I have many hobbies, i like to do many things, i like reading, listening to music, and playing games. I also have a hobbies of learning history, history is one of the subject that mesmerize me, there is so much great tale and story with many good moral examples we can learn in history.</p>
-                <p>Allright, i guess that's enough, this is all for the about me section, thank you for reading...</p>   
-            </div>
-            <div class="portofolio">
-                <div class="experience">
-                    <div class="desktop-nav">
-                        <img src="images/icons/x.png" alt="">
-                    </div>
-                    <h1>💭 Experience</h1>
-                    <hr>
-                    <ul>
-                        <li>
-                            <h1>HIMTI Resource Development Division</h1>
-                            <p>2022 - now</p>
-                        </li>
-                        <li>
-                            <h1>BNCC @Malang LnT Division</h1>
-                            <p>2022 - now</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="education">
-                    <div class="desktop-nav">
-                        <img src="images/icons/x.png" alt="">
-                    </div>
-                    <h1>📚 Education</h1>        
-                    <hr>
-                    <h1>Binus University (Computer Science)</h1>            
-                    <p>2021 - now</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="contact-me-button button button-background-blue" id="contact">
-        Contact Me
-    </div>
-
-    <section id="projects">
-        <br>
-        <br>
-        <hr>
-        <h1 style="text-align: center; font-size: 50px;">Favourite Dotfiles</h1>
-        <p style="text-align: center;">I dont know what tu put here, so i just gonna put my favourties linux desktop in here</p>
-        <div class="carousel-container">
-            <div class="carousel-content" id="slide1">
-                <a href="#slide3" id="left-arrow">
-                    <img src="images/icons/arrow.png" alt="">
-                </a>
-                <img src="images/dot1.png" alt="">
-                <a href="#slide2">
-                    <img src="images/icons/arrow.png" alt="">
-                </a>
-            </div>
-            <div class="carousel-content" id="slide2">
-                <a href="#slide1" id="left-arrow">
-                    <img src="images/icons/arrow.png" alt="">
-                </a>
-                <img src="images/dot2.png" alt="">
-                <a href="#slide3">
-                    <img src="images/icons/arrow.png" alt="">
-                </a>
-            </div>
-            <div class="carousel-content" id="slide3">
-                <a href="#slide2" id="left-arrow">
-                    <img src="images/icons/arrow.png" alt="">
-                </a>
-                <img src="images/dot3.png" alt="">
-                <a href="#slide1">
-                    <img src="images/icons/arrow.png" alt="">
-                </a>
-            </div>
-        </div>
-        <br>
-        <h1 style="text-align: center;">💮Owl4ce Dotfiles</h1>
-        <a href="https://github.com/owl4ce/dotfiles" style="text-decoration: none; color: purple; display: block; text-align: center;">https://github.com/owl4ce/dotfiles</a>
-        <br>
-        <br>
-        <br>
-    </section>
-    <section id="form">
-        <div class="desktop-nav">
-            <img src="images/icons/x.png" alt="" id="form-close">
-        </div>
-        <form action="">
-            <h1 style="text-align: center; font-size: 50px;">📬 Contact me form 📬</h1>
-            <hr>
-            <label for="name">👱 Name</label>
-            <input type="text" id="name">
-            <label for="email">📭 Email</label>
-            <input type="text" id="email">
-            <label for="phone-num">📱 Phone Number</label>
-            <input type="text" id="phone-num">
-            <label for="message">Message</label>
-            <textarea name="" id="message" cols="30" rows="10"></textarea>
-            <button type="submit" class="button button-background-blue" style="margin: auto; margin-top: 10px; height: 50px;" id="submit">Submit</button>
-        </form>        
-    </section>
-    <script src="scripts/script.js"></script>
+                <label for="name">👱 Name</label>
+                <input type="text" id="name">
+                <label for="email">📭 Email</label>
+                <input type="text" id="email">
+                <label for="phone-num">📱 Phone Number</label>
+                <input type="text" id="phone-num">
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="10"></textarea>
+                <button type="submit" class="button button-background-blue" style="margin: auto; margin-top: 10px; height: 50px;" id="submit">Submit</button>
+            </form>        
+        </section>
+        <script src="scripts/script.js"></script>
+    </main>
+    
 </body>
 </html>
