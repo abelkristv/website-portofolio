@@ -78,21 +78,22 @@
             </div>
         </div>
     </section>
-    <div class="contact-me-button button button-background-blue">
+    <div class="contact-me-button button button-background-blue" id="contact">
         Contact Me
     </div>
-    <br>
-    <br>
-    <hr>
-    <section class="projects">
-        <h1 style="text-align: center; font-size: 50px;">My Projects</h1>
-        <p style="text-align: center;">This is the collection of my projects</p>
+
+    <section id="projects">
+        <br>
+        <br>
+        <hr>
+        <h1 style="text-align: center; font-size: 50px;">Favourite Dotfiles</h1>
+        <p style="text-align: center;">I dont know what tu put here, so i just gonna put my favourties linux desktop in here</p>
         <div class="carousel-container">
             <div class="carousel-content" id="slide1">
                 <a href="#slide3" id="left-arrow">
                     <img src="images/icons/arrow.png" alt="">
                 </a>
-                <img src="images/dot1.jpg" alt="">
+                <img src="images/dot1.png" alt="">
                 <a href="#slide2">
                     <img src="images/icons/arrow.png" alt="">
                 </a>
@@ -116,7 +117,31 @@
                 </a>
             </div>
         </div>
+        <br>
+        <h1 style="text-align: center;">💮Owl4ce Dotfiles</h1>
+        <a href="https://github.com/owl4ce/dotfiles" style="text-decoration: none; color: purple; display: block; text-align: center;">https://github.com/owl4ce/dotfiles</a>
+        <br>
+        <br>
+        <br>
     </section>
-    <p>dsfasd</p>
+    <section id="form">
+        <div class="desktop-nav">
+            <img src="images/icons/x.png" alt="" id="form-close">
+        </div>
+        <form action="">
+            <h1 style="text-align: center; font-size: 50px;">📬 Contact me form 📬</h1>
+            <hr>
+            <label for="name">👱 Name</label>
+            <input type="text" id="name">
+            <label for="email">📭 Email</label>
+            <input type="text" id="email">
+            <label for="phone-num">📱 Phone Number</label>
+            <input type="text" id="phone-num">
+            <label for="message">Message</label>
+            <textarea name="" id="message" cols="30" rows="10"></textarea>
+            <button type="submit" class="button button-background-blue" style="margin: auto; margin-top: 10px; height: 50px;" id="submit">Submit</button>
+        </form>        
+    </section>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
