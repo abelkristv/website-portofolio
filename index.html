@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wired</title>
     <link rel="stylesheet" href="styles/styles.css">
+    
 </head>
 <body>
     <main>
@@ -82,9 +83,8 @@
             </section>
         </section>
         <div class="contact-me-button button button-background-blue" id="contact">
-            Contact Me
+            <span style="margin-top: 10px; display: block;">Contact Me</span>
         </div>
-    
         <section id="projects">
             <br>
             <br>
@@ -127,26 +127,26 @@
             <br>
             <br>
         </section>
-        <section id="form">
-            <div class="desktop-nav">
-                <img src="images/icons/x.png" alt="" id="form-close">
-            </div>
-            <form action="">
-                <h1 style="text-align: center; font-size: 50px;">📬 Contact me form 📬</h1>
-                <hr>
-                <label for="name">👱 Name</label>
-                <input type="text" id="name">
-                <label for="email">📭 Email</label>
-                <input type="text" id="email">
-                <label for="phone-num">📱 Phone Number</label>
-                <input type="text" id="phone-num">
-                <label for="message">Message</label>
-                <textarea name="" id="message" cols="30" rows="10"></textarea>
-                <button type="submit" class="button button-background-blue" style="margin: auto; margin-top: 10px; height: 50px;" id="submit">Submit</button>
-            </form>        
-        </section>
-        <script src="scripts/script.js"></script>
     </main>
-    
+    <section id="form">
+        <div class="desktop-nav">
+            <img src="images/icons/x.png" alt="" id="form-close">
+        </div>
+        <form action="">
+            <h1 style="text-align: center; font-size: 50px;">📬 Contact me form 📬</h1>
+            <hr>
+            <label for="name">👱 Name</label>
+            <input type="text" id="name">
+            <label for="email">📭 Email</label>
+            <input type="text" id="email">
+            <label for="phone-num">📱 Phone Number</label>
+            <input type="text" id="phone-num">
+            <label for="message">Message</label>
+            <textarea name="" id="message" cols="30" rows="10"></textarea>
+            <button type="submit" class="button button-background-blue" style="margin: auto; margin-top: 10px; height: 50px;" id="submit">Submit</button>
+        </form>        
+    </section>
+    <script src="scripts/jquery-3.6.1-min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

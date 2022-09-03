@@ -23,6 +23,9 @@
 
 .contact-me-button {
     margin: auto;
+    padding: 0;
+    width: 140px;
+    height: 45px;
 }
 
 .button-background-blue {
