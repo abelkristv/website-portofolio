@@ -14,11 +14,13 @@ $(document).ready(function(){
 document.addEventListener("submit", function(event) {
     event.preventDefault()
     let name = document.getElementById("name").value;
-    console.log(name)
     let email = document.getElementById("email").value;
     let phoneNumber = document.getElementById("phone-num").value;
     let message = document.getElementById("message").value;
 
     writeUserData(name,email,phoneNumber,message);
-    // console.log("dsaf")
+    $("#submit").click(function(){
+        $("#form").fadeOut()
+        $("main").css("filter", "none")
+    })
 })
