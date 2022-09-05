@@ -9,7 +9,6 @@
     margin: 0px;
     padding: 0px;
     font-family: rainyhearts;
-    color: white;
 }
 
 a {
@@ -20,7 +19,3 @@ ul {
     overflow: hidden;
 }
 
-main {
-    /* background-color: rgb(25, 37, 48); */
-    background-image: url("../images/wallpaper.jpg");
-}

@@ -1,8 +1,8 @@
 .biodata {
     margin: 50px;
-    border: 3px solid rgb(110, 185, 255);
-    box-shadow: 5px 7px rgb(19, 141, 255);
-    background-color: rgb(25, 37, 48);
+    border: 3px solid pink;
+    box-shadow: 5px 7px pink;
+    background-color: rgb(255, 255, 255);
     width: 400px;
 }
 
@@ -25,7 +25,7 @@ hr {
 }
 
 .desktop-nav {
-    background-color: rgb(110, 185, 255);
+    background-color: rgb(252, 221, 227);
     height: 30px;
 }
 
@@ -39,14 +39,14 @@ hr {
 
 .information {
     margin: 50px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     flex-direction: column;
 }
 
 .aboutme {
-    border: 3px solid rgb(110, 185, 255);
-    box-shadow: 5px 7px rgb(19, 141, 255);
+    border: 3px solid pink;
+    box-shadow: 5px 7px pink;
 }
 
 .portofolio {
@@ -55,16 +55,16 @@ hr {
 }
 
 .experience {
-    border: 3px solid rgb(110, 185, 255);
-    box-shadow: 5px 7px rgb(19, 141, 255);
+    border: 3px solid pink;
+    box-shadow: 5px 7px pink;
     margin-top: 30px;
     margin-right: 20px;
     width: 50%;
 }
 
 .education {
-    border: 3px solid rgb(110, 185, 255);
-    box-shadow: 5px 7px rgb(19, 141, 255);
+    border: 3px solid pink;
+    box-shadow: 5px 7px pink;
     margin-top: 30px;
     margin-left: 20px;
     width: 50%;
