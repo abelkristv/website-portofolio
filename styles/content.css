@@ -1,14 +1,54 @@
+@media only screen and (max-width: 1393px) {
+    .biodata-content {
+        flex-flow: column;
+        margin: 5px;
+    }
+
+    .biodata {
+        width: 80%!important;
+    }
+
+    .images {
+        width: 100%!important;
+        border-right: none!important;
+    }
+
+    .desc-singkat {
+        display: none;
+    }
+}
+
 .biodata {
-    margin: 50px;
-    border: 3px solid pink;
-    box-shadow: 5px 7px pink;
+    /* margin: 50px; */
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid rgb(235, 230, 230);
+    box-shadow: 5px 7px rgb(235, 230, 230);
     background-color: rgb(255, 255, 255);
-    width: 400px;
+    width: 60%;
+    border-radius: 15px;
+}
+
+.biodata-content {
+    margin-top: 10px;
+    display: flex;
 }
 
 .biodata h1 {
     color: rgb(0, 183, 255);
     text-align: center;
+}
+
+.biodata-content > .images {
+    float: left;
+    border-right: 1px solid black;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.biodata-content > .desc-singkat {
+    float: left;
+    width: 50%;
 }
 
 hr {
@@ -25,49 +65,61 @@ hr {
 }
 
 .desktop-nav {
-    background-color: rgb(252, 221, 227);
-    height: 30px;
+    background-color: rgb(241, 241, 241);
+    height: 50px;
+    border-radius: 12px 12px 0px 0px;
 }
 
 .desktop-nav img {
     width: 25px;
     height: 25px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     float: right;
     cursor: pointer;
+    padding: 10px;
 }
 
 .information {
     margin: 50px;
+    padding: auto;
     background-color: rgb(255, 255, 255);
-    width: 100%;
     flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .aboutme {
-    border: 3px solid pink;
-    box-shadow: 5px 7px pink;
+    border: 3px solid rgb(235, 230, 230);
+    box-shadow: 5px 7px rgb(235, 230, 230);
+    /* width: 1820px; */
+    margin: auto;
+    padding: auto;
+    border-radius: 15px;
 }
 
 .portofolio {
     display: flex;
     flex-direction: row;
+    border-radius: 15px;
 }
 
 .experience {
-    border: 3px solid pink;
-    box-shadow: 5px 7px pink;
+    border: 3px solid rgb(235, 230, 230);
+    box-shadow: 5px 7px rgb(235, 230, 230);
     margin-top: 30px;
     margin-right: 20px;
     width: 50%;
+    border-radius: 15px;
 }
 
 .education {
-    border: 3px solid pink;
-    box-shadow: 5px 7px pink;
+    border: 3px solid rgb(235, 230, 230);
+    box-shadow: 5px 7px rgb(235, 230, 230);
     margin-top: 30px;
     margin-left: 20px;
     width: 50%;
+    border-radius: 15px;
 }
 
 .information h1 {
@@ -84,6 +136,7 @@ hr {
 
 #content {
     display: flex;
+    flex-flow: column;
 }
 
 #content p {
@@ -93,3 +146,4 @@ hr {
 #github {
     text-decoration: none;
 }
+

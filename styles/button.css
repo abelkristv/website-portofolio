@@ -10,6 +10,7 @@
     color: aliceblue;
     font-weight: bold;
     text-decoration: none;
+    border-radius: 15px;
 }
 
 .button:active {

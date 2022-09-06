@@ -1,3 +1,10 @@
+@media only screen and (max-width: 1048px) {
+    .carousel-container img {
+        width: 500px!important;
+        height: 250px!important;
+    }
+}
+
 .carousel-container {
     display: grid;
     grid-auto-flow: column;
