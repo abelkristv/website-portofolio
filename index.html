@@ -144,13 +144,17 @@
             <hr>
             <label for="name">👱 Name</label>
             <input type="text" id="name">
+            <p id="name-warn" style="display: none; color: red;"></p>
             <label for="email">📭 Email</label>
             <input type="text" id="email">
+            <p id="email-warn" style="display: none; color: red;"></p>
             <label for="phone-num">📱 Phone Number</label>
             <input type="text" id="phone-num">
+            <p id="phone-num-warn" style="display: none; color: red;"></p>
             <label for="message">Message</label>
             <textarea name="" id="message" cols="30" rows="10"></textarea>
-            <button type="submit" class="button button-background-blue" style="margin: auto; margin-top: 10px; height: 50px;" id="submit">Submit</button>
+            <p id="message-warn" style="display: none; color: red;"></p>
+            <button type="submit" class="button button-background-blue" style="margin: auto; margin-top: 10px; padding: 0px; height: 60px; background-clip: content-box;" id="submit">Submit</button>
         </form>        
     </section>
     <script src="./scripts/jquery-3.6.1-min.js"></script>
